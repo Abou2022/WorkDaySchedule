@@ -8,8 +8,7 @@ Table of Contents:
     1. Descriptions
     2. Installation
     3. Mock-Up
-    4. Github
-    5.Question
+    4.Question
 
 ## Description
 
@@ -38,6 +37,15 @@ This app will run in the browser and feature dynamically update Html and CSS pow
 
 The following animation demonstrates the application functionality:
 
-## ![A user can add his schedule, and the color will help him with the next event.](./Assets/Untitled_%20Aug%2018,%202022%205_15%20PM.gif)
+## ![A user can add his schedule, and the color will help him with the next event.](./Assets/Untitled_%20Aug%2019,%202022%205_51%20PM.gif)
+
+## Question
+
+For any question, you can email me or reach out via Github:
+
+- [email](mailto:syllabakary2002@gmail.com)
+- [Github](https://github.com/Abou2022/WorkDaySchedule)
+
+---
 
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
