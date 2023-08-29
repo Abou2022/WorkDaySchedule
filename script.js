@@ -1,4 +1,5 @@
 var displayTimeEl = $(".container");
+var hundred = document.getElementById("30");
 var nine = document.getElementById("9");
 var ten = document.getElementById("10");
 var eleven = document.getElementById("11");
@@ -25,46 +26,104 @@ setInterval(displayTime, 1000);
 console.log(currenTime);
 
 // Code optimization
-if (currenTime >= 9 && currenTime <= 20) {
+if (
+  currenTime === 30 ||
+  currenTime === 9 ||
+  currenTime === 10 ||
+  currenTime === 11 ||
+  currenTime === 12 ||
+  currenTime === 13 ||
+  currenTime === 14 ||
+  currenTime === 15 ||
+  currenTime === 16 ||
+  currenTime === 17 ||
+  currenTime === 18 ||
+  currenTime === 19 ||
+  currenTime === 20
+) {
+  hundred.classList.add("present");
   nine.classList.add("present");
   ten.classList.add("present");
   eleven.classList.add("present");
   twelve.classList.add("present");
   two.classList.add("present");
   three.classList.add("present");
+  four.classList.add("present");
+  five.classList.add("present");
+  six.classList.add("present");
+  seven.classList.add("present");
+  eight.classList.add("present");
   console.log("present");
 } else if (
-  (currenTime < 9,
-  currenTime < 10,
-  currenTime < 11,
-  currenTime < 12,
-  currenTime < 13)
+  currenTime < 30 ||
+  currenTime < 9 ||
+  currenTime < 10 ||
+  currenTime < 11 ||
+  currenTime < 12 ||
+  currenTime < 13 ||
+  currenTime < 14 ||
+  currenTime < 15 ||
+  currenTime < 16 ||
+  currenTime < 17 ||
+  currenTime < 18 ||
+  currenTime < 19 ||
+  currenTime < 20
 ) {
+  hundred.classList.add("future");
   nine.classList.add("future");
   ten.classList.add("future");
   eleven.classList.add("future");
   twelve.classList.add("future");
   one.classList.add("future");
+  two.classList.add("future");
+  three.classList.add("future");
+  four.classList.add("future");
+  five.classList.add("future");
+  six.classList.add("future");
+  seven.classList.add("future");
+  eight.classList.add("future");
   console.log("future");
 } else if (
-  (currenTime > 9,
+  (currenTime > 30,
+  currenTime > 9,
   currenTime > 10,
   currenTime > 11,
   currenTime > 12,
-  currenTime > 13)
+  currenTime > 14,
+  currenTime > 15,
+  currenTime > 16,
+  currenTime > 17,
+  currenTime > 18,
+  currenTime > 19,
+  currenTime > 20)
 ) {
+  hundred.classList.add("past");
   nine.classList.add("past");
   ten.classList.add("past");
   eleven.classList.add("past");
   twelve.classList.add("past");
   one.classList.add("past");
+  two.classList.add("past");
+  three.classList.add("past");
+  four.classList.add("past");
+  five.classList.add("past");
+  six.classList.add("past");
+  seven.classList.add("past");
+  eight.classList.add("past");
   console.log("past");
 }
+console.log(hundred);
 console.log(nine);
 console.log(ten);
 console.log(eleven);
 console.log(twelve);
 console.log(one);
+console.log(two);
+console.log(four);
+console.log(five);
+console.log(six);
+console.log(seven);
+console.log(eight);
 
 // if (currenTime === 9) {
 //   nine.classList.add("present");
@@ -223,4 +282,5 @@ $(document).ready(function () {
   $("#10th .description").val(localStorage.getItem("10th"));
   $("#11th .description").val(localStorage.getItem("11th"));
   $("#12th .description").val(localStorage.getItem("12th"));
+  $("#13th .description").val(localStorage.getItem("13th"));
 });
