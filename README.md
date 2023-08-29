@@ -58,4 +58,4 @@ Should you have any questions, please don't hesitate to reach out via email my [
 
 ---
 
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Bakary Sylla, Inc. brand. Confidential and Proprietary. All Rights Reserved.
