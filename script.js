@@ -25,241 +25,148 @@ setInterval(displayTime, 1000);
 
 console.log(currenTime);
 
-// Code optimization
-if (
-  currenTime === 30 ||
-  currenTime === 9 ||
-  currenTime === 10 ||
-  currenTime === 11 ||
-  currenTime === 12 ||
-  currenTime === 13 ||
-  currenTime === 14 ||
-  currenTime === 15 ||
-  currenTime === 16 ||
-  currenTime === 17 ||
-  currenTime === 18 ||
-  currenTime === 19 ||
-  currenTime === 20
-) {
-  hundred.classList.add("present");
+if (currenTime === 9) {
   nine.classList.add("present");
+  console.log("present");
+} else if (currenTime < 9) {
+  nine.classList.add("future");
+  console.log("future");
+} else if (currenTime > 9) {
+  nine.classList.add("past");
+  console.log("past");
+}
+console.log(nine);
+
+if (currenTime === 10) {
   ten.classList.add("present");
+  console.log("present");
+} else if (currenTime < 10) {
+  ten.classList.add("future");
+  console.log("future");
+} else if (currenTime > 10) {
+  ten.classList.add("past");
+  console.log("past");
+}
+console.log(ten);
+
+if (currenTime === 11) {
   eleven.classList.add("present");
+  console.log("present");
+} else if (currenTime < 11) {
+  eleven.classList.add("future");
+  console.log("future");
+} else if (currenTime > 11) {
+  eleven.classList.add("past");
+  console.log("past");
+}
+console.log(eleven);
+
+if (currenTime === 12) {
   twelve.classList.add("present");
+  console.log("present");
+} else if (currenTime < 12) {
+  twelve.classList.add("future");
+  console.log("future");
+} else if (currenTime > 12) {
+  twelve.classList.add("past");
+  console.log("past");
+}
+console.log(twelve);
+
+if (currenTime === 13) {
+  one.classList.add("present");
+  console.log("present");
+} else if (currenTime < 13) {
+  one.classList.add("future");
+  console.log("future");
+} else if (currenTime > 13) {
+  one.classList.add("past");
+  console.log("past");
+}
+console.log(one);
+
+if (currenTime === 14) {
   two.classList.add("present");
+  console.log("present");
+} else if (currenTime < 14) {
+  two.classList.add("future");
+  console.log("future");
+} else if (currenTime > 14) {
+  two.classList.add("past");
+  console.log("past");
+}
+console.log(two);
+
+if (currenTime === 15) {
   three.classList.add("present");
+  console.log("present");
+} else if (currenTime < 15) {
+  three.classList.add("future");
+  console.log("future");
+} else if (currenTime > 15) {
+  three.classList.add("past");
+  console.log("past");
+}
+console.log(three);
+
+if (currenTime === 16) {
   four.classList.add("present");
+  console.log("present");
+} else if (currenTime < 16) {
+  four.classList.add("future");
+  console.log("future");
+} else if (currenTime > 16) {
+  four.classList.add("past");
+  console.log("past");
+}
+console.log(four);
+
+if (currenTime === 17) {
   five.classList.add("present");
+  console.log("present");
+} else if (currenTime < 17) {
+  five.classList.add("future");
+  console.log("future");
+} else if (currenTime > 17) {
+  five.classList.add("past");
+  console.log("past");
+}
+console.log(five);
+
+if (currenTime === 18) {
   six.classList.add("present");
+  console.log("present");
+} else if (currenTime < 18) {
+  six.classList.add("future");
+  console.log("future");
+} else if (currenTime > 18) {
+  six.classList.add("past");
+  console.log("past");
+}
+console.log(six);
+if (currenTime === 19) {
   seven.classList.add("present");
+  console.log("present");
+} else if (currenTime < 19) {
+  seven.classList.add("future");
+  console.log("future");
+} else if (currenTime > 19) {
+  seven.classList.add("past");
+  console.log("past");
+}
+console.log(seven);
+
+if (currenTime === 20) {
   eight.classList.add("present");
   console.log("present");
-} else if (
-  currenTime < 30 ||
-  currenTime < 9 ||
-  currenTime < 10 ||
-  currenTime < 11 ||
-  currenTime < 12 ||
-  currenTime < 13 ||
-  currenTime < 14 ||
-  currenTime < 15 ||
-  currenTime < 16 ||
-  currenTime < 17 ||
-  currenTime < 18 ||
-  currenTime < 19 ||
-  currenTime < 20
-) {
-  hundred.classList.add("future");
-  nine.classList.add("future");
-  ten.classList.add("future");
-  eleven.classList.add("future");
-  twelve.classList.add("future");
-  one.classList.add("future");
-  two.classList.add("future");
-  three.classList.add("future");
-  four.classList.add("future");
-  five.classList.add("future");
-  six.classList.add("future");
-  seven.classList.add("future");
+} else if (currenTime < 20) {
   eight.classList.add("future");
   console.log("future");
-} else if (
-  (currenTime > 30,
-  currenTime > 9,
-  currenTime > 10,
-  currenTime > 11,
-  currenTime > 12,
-  currenTime > 14,
-  currenTime > 15,
-  currenTime > 16,
-  currenTime > 17,
-  currenTime > 18,
-  currenTime > 19,
-  currenTime > 20)
-) {
-  hundred.classList.add("past");
-  nine.classList.add("past");
-  ten.classList.add("past");
-  eleven.classList.add("past");
-  twelve.classList.add("past");
-  one.classList.add("past");
-  two.classList.add("past");
-  three.classList.add("past");
-  four.classList.add("past");
-  five.classList.add("past");
-  six.classList.add("past");
-  seven.classList.add("past");
+} else if (currenTime > 20) {
   eight.classList.add("past");
   console.log("past");
 }
-console.log(hundred);
-console.log(nine);
-console.log(ten);
-console.log(eleven);
-console.log(twelve);
-console.log(one);
-console.log(two);
-console.log(four);
-console.log(five);
-console.log(six);
-console.log(seven);
 console.log(eight);
-
-// if (currenTime === 9) {
-//   nine.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 9) {
-//   nine.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 9) {
-//   nine.classList.add("past");
-//   console.log("past");
-// }
-// console.log(nine);
-
-// if (currenTime === 10) {
-//   ten.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 10) {
-//   ten.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 10) {
-//   ten.classList.add("past");
-//   console.log("past");
-// }
-// console.log(ten);
-
-// if (currenTime === 11) {
-//   eleven.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 11) {
-//   eleven.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 11) {
-//   eleven.classList.add("past");
-//   console.log("past");
-// }
-// console.log(eleven);
-
-// if (currenTime === 12) {
-//   twelve.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 12) {
-//   twelve.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 12) {
-//   twelve.classList.add("past");
-//   console.log("past");
-// }
-// console.log(twelve);
-
-// if (currenTime === 13) {
-//   one.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 13) {
-//   one.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 13) {
-//   one.classList.add("past");
-//   console.log("past");
-// }
-// console.log(one);
-
-// if (currenTime === 14) {
-//   two.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 14) {
-//   two.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 14) {
-//   two.classList.add("past");
-//   console.log("past");
-// }
-// console.log(two);
-
-// if (currenTime === 15) {
-//   three.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 15) {
-//   three.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 15) {
-//   three.classList.add("past");
-//   console.log("past");
-// }
-// console.log(three);
-
-// if (currenTime === 16) {
-//   four.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 16) {
-//   four.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 16) {
-//   four.classList.add("past");
-//   console.log("past");
-// }
-// console.log(four);
-
-// if (currenTime === 17) {
-//   five.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 17) {
-//   five.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 17) {
-//   five.classList.add("past");
-//   console.log("past");
-// }
-// console.log(five);
-
-// if (currenTime === 18) {
-//   six.classList.add("present");
-//   console.log("present");
-// } else if (currenTime < 18) {
-//   six.classList.add("future");
-//   console.log("future");
-// } else if (currenTime > 18) {
-//   six.classList.add("past");
-//   console.log("past");
-// }
-// console.log(six);
-// // combienning check
-// if ((currenTime === 19, currenTime === 20)) {
-//   seven.classList.add("present");
-//   eight.classList.add("present");
-//   console.log("present");
-// } else if ((currenTime < 19, currenTime < 20)) {
-//   seven.classList.add("future");
-//   eight.classList.add("future");
-//   console.log("future");
-// } else if ((currenTime > 19, currenTime > 20)) {
-//   seven.classList.add("past");
-//   eight.classList.add("past");
-//   console.log("past");
-// }
-// console.log(seven);
-// console.log(eight);
 
 $(document).ready(function () {
   $(".saveBtn").on("click", function () {
